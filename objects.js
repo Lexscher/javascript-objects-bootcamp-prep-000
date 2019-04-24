@@ -32,6 +32,6 @@ function updatePlaylist(myPlaylist, artistName, songTitle) {
   return newPlaylist;
 }
 
-function removeFromPlaylist(myPlaylist) {
-  
+function removeFromPlaylist(myPlaylist, artistName) {
+  delete myPlaylist.artistName;
 }
